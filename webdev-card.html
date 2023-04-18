@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/osnova.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo">
+          <img src="./img/logo.svg" />
+        </div>
+      </div>
+      <h2 class="nav-title">Web-разработчик</h2>
+    </div>
+    <main class="main">
+      <header class="header">
+        <div>
+          <form class="search">
+            <label class="search-label">
+              <img class="search-icon" src="./img/icons/search.svg" />
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Ищите конкретный курс?"
+              />
+            </label>
+          </form>
+        </div>
+
+        <div>
+          <nav class="nav-header">
+            <ul class="nav-header-list">
+              <li class="nav-header-link-text"><a href="#">Курсы</a></li>
+              <li class="nav-header-link-text"><a href="/about.html">О нас</a></li>
+              <li class="nav-header-link-text"><a href="#">Отзывы</a></li>
+              <li class="nav-header-link-text"><a href="#">Контакты</a></li>
+              <li class="nav-header-link-icon">
+                <a href="#"><img src="./img/icons/basket.svg" /></a>
+              </li>
+              <li class="nav-header-link-icon account">
+                <a href="#"><img src="/img/icons/icons8-male-user-50.png" /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="cards">
+        <div class="cards-row">
+          <div class="cards-row-vertical">
+            <a href="#" class="card card-vertical" style="background-image: url(/img/cards/markus-spiske-MI9-PY5cyNs-unsplash.jpg);">
+                <h4 class="card-title" style="font-size: 40px;">Web-разработчик</h4>
+            </a>
+            <a href="#" class="card card-vertical">
+                <h4 class="card-title" style="font-size: 30px;">Время прохождения: 6 месяцев</h4>
+            </a>
+          </div>
+          <div class="cards-row-vertical">
+            <a href="#" class="card card-vertical-x2" style="background-image: url(/img/cards/niclas-illg-FJ5e_2f96h4-unsplash.jpg);"></a>
+          </div>
+        </div>
+        <div class="cards-row">
+          <div class="cards-row-horizontal">
+            <a href="#" class="card card-vertical-halfpage" style="background-image: url(/img/cards/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg);">
+              <h4 class="card-text">Верстать сайты на языках HTML и CSS <br>
+                Программировать на языках JavaScript и PHP <br>
+                Работать с JavaScript-фреймворками <br>
+                Создавать серверную часть сайта или приложения <br>
+                Освоите навыки, полезные любому программисту <br>
+                </h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
